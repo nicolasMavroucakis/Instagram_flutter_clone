@@ -5,6 +5,7 @@ import 'package:instragam_flutter/responsive/resposive_layout_screen.dart';
 import 'package:instragam_flutter/responsive/web_screen_layout.dart';
 import 'package:instragam_flutter/utils/colors.dart';
 import "package:firebase_core/firebase_core.dart";
+import 'package:instragam_flutter/screens/login_screnn.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -27,7 +28,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: mobileBackgroundColor,
       ),
-      home: const ReposniveLayout(webScreenLayout: WebScreenLayout(), mobileScreenLayout: MobileScreenLayout()),
+      home: const LoginScreen(), //const ReposniveLayout(webScreenLayout: WebScreenLayout(), mobileScreenLayout: MobileScreenLayout()),
+      
     );
   }
 }
