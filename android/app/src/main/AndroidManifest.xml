@@ -1,4 +1,5 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.instragam_flutter">
     <application
         android:label="instragam_flutter"
         android:name="${applicationName}"
